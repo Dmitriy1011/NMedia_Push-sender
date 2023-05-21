@@ -18,9 +18,9 @@ fun main() {
     val message = Message.builder()
         .putData("action", "NEW_POST")
         .putData("content", """{
-          "postId": 1,
-          "postAuthorName": "Vasiliy",
-          "postContent": "Procuring education on consulted assurance in do. Is sympathize he expression mr no travelling. Preference he he at travelling in resolution. So striking at of to welcomed resolved. Northward by described up household therefore attention. Excellence decisively nay man yet impression for contrasted remarkably. There spoke happy for you are out. Fertile how old address did showing because sitting replied six. Had arose guest visit going off child she new.",
+          "id": 1,
+          "author": "Vasiliy",
+          "content": "Procuring education on consulted assurance in do. Is sympathize he expression mr no travelling. Preference he he at travelling in resolution. So striking at of to welcomed resolved. Northward by described up household therefore attention. Excellence decisively nay man yet impression for contrasted remarkably. There spoke happy for you are out. Fertile how old address did showing because sitting replied six. Had arose guest visit going off child she new.",
      
         }""".trimIndent())
         .setToken(token)
